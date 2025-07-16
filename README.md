@@ -18,5 +18,14 @@
 	sheduler.py - файл для реализации работы фонового процесса для записи полученных данных из внешнего API (coinmarketcap.com)
 </li>
 </ul>
-<b>Запуск проекта:</b>
+
+<b>Для запуска проекат необходимо:</b>
+<ul>
+	<li>Иметь установленный Python3.9+</li>
+<li>Клонировать репозиторий:</li>
+git clone https://github.com/alexanderone89/bitcoinDominance.git
+<li>Установить необходимые библиотеки:</li>
+pip install -r requirements.txt
+<li>Запуск проекта:</li>
 uvicorn main:app --host 0.0.0.0 --port 8000
+</ul>
